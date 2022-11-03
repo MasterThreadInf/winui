@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "winui.Shared", "winui.Shared\winui.Shared.shproj", "{6279C845-92F8-4333-AB99-3D213163593C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{39FDD02B-CF28-467F-8DA2-AF36746639EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winui.Wasm", "winui.Wasm\winui.Wasm.csproj", "{F7B518C9-0395-400D-B065-8045C1EE43A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7B518C9-0395-400D-B065-8045C1EE43A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B518C9-0395-400D-B065-8045C1EE43A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B518C9-0395-400D-B065-8045C1EE43A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B518C9-0395-400D-B065-8045C1EE43A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7B518C9-0395-400D-B065-8045C1EE43A8} = {39FDD02B-CF28-467F-8DA2-AF36746639EF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3F46B21-8322-4BB6-872E-B0237E25AC2A}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		winui.Shared\winui.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
+		winui.Shared\winui.Shared.projitems*{f7b518c9-0395-400d-b065-8045c1ee43a8}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
